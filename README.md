@@ -1,15 +1,15 @@
-# Ecobadge bluepint
+# Ecobadge blueprint
 
-Simple blueprint that mints a non fungible token which can be used as access token to your website.
+Simple Scrypto blueprint that mints a non fungible token which can be used as access token to your website.
 Using access roles and royalties.
 
 ### Created resources
-1. A fungible resource used as owner badge
-2. A Resource Manager used for minting the NFTs
+1. A fungible resource used as owner badge which is returned to the creator
+2. A Resource Manager used for minting the NFTs which is staying within the component
 
 ### Access control
 1. Burning is just allowed from inside the component
-2. Recall is only allowed by the owner (with the owner_badge)
+2. Recall is only allowed by the defined owner
 
 
 ## How to install
@@ -23,7 +23,7 @@ Using access roles and royalties.
 4. Go to the developer console and publish the package.
 
 
-## Transaction Mainfest examples
+## Transaction Manifest examples
 
 ### Within your website
 
